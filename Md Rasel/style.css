@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h_width{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.nav{
+    background: #0088cc;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+
+}
+.nav h1{
+    margin-left: -55%;
+    font-size: 24px;
+    color: #fff;
+    font-style: italic;
+}
+.nav img{
+    width: 40px;
+    height: 40px;
+}
+.nav ul{
+    
+}
+.nav li{
+    display: inline-block;
+}
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+}
+.nav li a:hover{
+    color: black;
+}
+/* nav end */
+.banner_area{
+    margin-top: 10px;
+    background:linear-gradient(rgba(191, 93, 93, 0.4) , rgba(146, 146, 35, 0.4)), url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 1200px;
+    height: 550px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+
+}
+.banner_area h1{
+    margin-top: 20%;
+    color: #fff;
+    font-size: 35px;
+}
+.banner_area p{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+}
+.btn{
+    text-decoration: none;
+    border: 1px solid #0088cc;
+    padding: 8px;
+    border-radius: 20px;
+    color:  #0088cc;
+    background: #fff;
+    
+}
+.btn:hover{
+    background:#0088cc;
+    color: #fff;
+    transition: .6s;
+}
+/* banner end */
+.hero{
+    margin-top: 10px;
+    text-align: center;
+}
+.hero h1{
+
+}
+.hero p{
+    font-size: 14px;
+}
+.hero span{ 
+    color: #0088cc;
+}
+/* hero end */
+.hero_area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+}
+.hero_items{
+    margin-top: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(194, 190, 190);
+    grid-row: 1 /span 38;
+    border-radius: 5px;
+}
+.hero_items img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0088cc;
+    padding: 8px;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+.hero_items h2{
+    margin: 10%;
+}
+.hero_items p{
+    margin-bottom: 15%;
+}
+/* hero area end */
+.port_area{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px;
+    margin-bottom: 10px;
+}
+.port_items{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(235, 234, 195);
+    border-radius: 6px;
+}
+.port_items h2{
+    margin-top: 7%;
+}
+.port_items p{}
+.port_items img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0088cc;
+    padding: 5px;
+}
+.port_items ul{
+
+}
+.port_items ul li{
+    list-style: none;
+}
+.port_items ul li a{
+    text-decoration: none;
+    color: black;
+}
+.social{}
+.social a{
+    text-decoration: none;
+    color: black;
+}
+.social img{
+    border: none;
+
+}
+footer{
+    margin-top: 10px;
+    background: rgb(204, 199, 199);
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.bt{
+    margin-bottom: 8px;
+
+}
+/* animation */
+/* The animation code */
+.animatin {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: 100;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:900px; top:0px;}
+    50%  {background-color:blue; left:900px; top:0px;}
+    75%  {background-color:green; left:0px; top:0px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+  /* animation end */
+  .galleryadd{
+    text-align: center;
+    padding: 10px;
+    color: #0088cc;
+  }
